@@ -20,3 +20,4 @@ spring:
         format_sql: true
         dialect: org.hibernate.dialect.MySQL5Dialect
     open-in-view: false
+
