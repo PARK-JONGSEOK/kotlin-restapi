@@ -12,7 +12,5 @@ data class PostEntity(
     var id: Long? = null,
     var title: String? = null,
     var content: String? = null,
-    var createdAt: LocalDateTime? = null,
-    var updatedAt: LocalDateTime? = null,
-) {
+): CommonDateEntity() {
 }

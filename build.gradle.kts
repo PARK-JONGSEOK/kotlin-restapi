@@ -55,6 +55,10 @@ dependencies {
     // Querydsl
     api("com.querydsl:querydsl-jpa")
     kapt("com.querydsl:querydsl-apt:4.2.1:jpa")
+    // Mapstruct
+    implementation ("org.mapstruct:mapstruct:1.4.2.Final")
+    kapt("org.mapstruct:mapstruct-processor:1.4.2.Final")
+    kaptTest("org.mapstruct:mapstruct-processor:1.4.2.Final")
     // Database
     runtimeOnly("mysql:mysql-connector-java")
     annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
